@@ -15,8 +15,8 @@ public class Base {
 		
 	
 	}
-	public static WebElement findById(String name){
-		return d.findElement(By.id(name));
+	public static WebElement findById(String idString){
+		return d.findElement(By.id(idString));
 	}
 	public static WebElement findByname(String name){
 		return d.findElement(By.name(name));
