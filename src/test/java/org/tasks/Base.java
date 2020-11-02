@@ -7,11 +7,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Base {
 	public static WebDriver d;
-	public static void Launch(String name) {
+	public static void Launch(String url) {
 		System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\Task1\\driver\\chromedriver.exe");
 		d = new ChromeDriver();
 		d.manage().window().maximize();
-		d.get(name);
+		d.get(url);
 		
 	
 	}
